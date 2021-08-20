@@ -1,0 +1,855 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+header {
+    background-color: #0e1b36;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    padding: 0px 75.2px 0px 75.2px;
+
+    .header__right {
+        width: 385px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & a {
+            text-decoration: none;
+            color: white;
+        }
+
+        & select {
+            width: 200px;
+            height: 40px;
+            background-color: #0e1b36;
+            color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+    }
+}
+
+.block__1 {
+    background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/main_header_arabic.jpg)no-repeat center top / cover;
+    height: 500px;
+
+    .block__1__wrapper {
+        max-width: 1353px;
+        height: 450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+
+        .block__1__left {
+            padding: 30px 35px;
+            background-color: rgba(0, 0, 0, 0.8);
+
+            & h2 {
+                font-size: 70px;
+                color: #e88b0c;
+                line-height: 1;
+            }
+
+            & p {
+                font-size: 60px;
+                color: #5da9dd;
+                line-height: 1;
+            }
+        }
+
+        .block__1__right {
+            padding-left: 100px;
+
+            .blue {
+                margin-top: 90px;
+                position: relative;
+                height: 342px;
+                width: 300px;
+                background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/main_header_button.png)no-repeat center top / cover;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 50px;
+                text-align: center;
+                padding: 20px;
+            }
+
+            .white {
+                position: absolute;
+                margin-right: 200px;
+                z-index: 1;
+            }
+        }
+    }
+}
+
+.block__2 {
+    height: 80px;
+
+    & ul {
+        display: flex;
+        padding-top: 25px;
+        padding-right: 20px;
+    }
+
+    & li {
+        padding-left: 40px;
+    }
+
+    & a {
+        color: #000000;
+        font-size: 22px;
+    }
+}
+
+.block__3 {
+    background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/bonus_background.jpg)no-repeat center top / cover;
+    height: 526px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .orange {
+        background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/bonus_image_right.png)no-repeat center top / cover;
+        height: 360px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+
+        & h2 {
+            font-size: 34px;
+            color: #fff;
+            text-align: center;
+        }
+
+        & button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: transparent;
+            border: 1px solid #000000;
+            font-weight: bolder;
+        }
+    }
+
+    .blue {
+        background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/bonus_image_center.png)no-repeat center top / cover;
+        height: 360px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & h2 {
+            font-size: 44px;
+            color: #111e39;
+            margin-bottom: 15px;
+        }
+
+        .number {
+            font-size: 100px;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .text {
+            font-size: 38px;
+            color: #fff;
+            text-align: center;
+        }
+
+        & button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: transparent;
+            border: 1px solid #000000;
+            font-weight: bolder;
+        }
+    }
+
+    .violet {
+        background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/bonus_image_left.png)no-repeat center top / cover;
+        height: 360px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+
+        & h2 {
+            font-size: 34px;
+            color: #fff;
+            text-align: center;
+        }
+
+        & button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: transparent;
+            border: 1px solid #000000;
+            font-weight: bolder;
+        }
+    }
+}
+
+.block__4 {
+    background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/bullet_background.jpg)no-repeat center top / cover;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .block__4__items {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.block__4_iten {
+    & h2 {
+        font-size: 44px;
+        color: #fff;
+        line-height: 1;
+        margin-bottom: 10px;
+        font-weight: bolder;
+    }
+
+    & p {
+        font-size: 24px;
+        color: #fff;
+        line-height: 1;
+        margin: 0;
+        height: 24px;
+    }
+
+    .money {
+        font-weight: bolder;
+    }
+}
+
+.block__4_iten_end {
+    width: 150px;
+    height: 170px;
+    background-color: white;
+    background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/bullet_button.png)no-repeat center top / cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    & a {
+        text-align: center;
+        color: #720ce8;
+        font-size: 30px;
+    }
+
+    & p {
+        text-align: center;
+        color: #720ce8;
+        font-size: 30px;
+    }
+}
+
+.block__5 {
+    height: 1000px;
+    background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/time_background.jpg)no-repeat center top / cover;
+
+    .block__5__titles {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .block__5__title {
+            font-size: 70px;
+            color: #167bc0;
+            font-family: NexaBold;
+            margin-bottom: 40px;
+        }
+
+        .block__5__subtitle {
+            font-size: 50px;
+            color: #253f76;
+            line-height: 1.4;
+        }
+    }
+
+    .block__5__times {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .block__5__right {
+            color: #167bc0;
+            border-color: #167bc0;
+            background-color: transparent;
+            width: 125px;
+            height: 125px;
+            font-size: 16px;
+            line-height: normal;
+            text-align: center;
+            border-radius: 100%;
+            border: 2px solid #167bc0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bolder;
+        }
+
+        .block__5__center {
+            height: 290px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .info {
+                width: 125px;
+                height: 125px;
+                font-size: 16px;
+                line-height: normal;
+                text-align: center;
+                border-radius: 100%;
+                border: 2px solid #167bc0;
+                background-color: #167bc0;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bolder;
+                margin-bottom: 15px;
+            }
+
+            & img {
+                max-width: 80%;
+            }
+        }
+
+        .block__5__left {
+            color: #720ce8;
+            border-color: #720ce8;
+            background-color: transparent;
+            width: 125px;
+            height: 125px;
+            font-size: 16px;
+            line-height: normal;
+            text-align: center;
+            border-radius: 100%;
+            border: 2px solid #167bc0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bolder;
+        }
+    }
+
+    .block__5__end {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & span {
+            font-size: 60px;
+            color: #253f76;
+            margin: 0px 30px;
+        }
+
+        & a {
+            background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/time_button.png)no-repeat center top / cover;
+            color: #fff;
+            font-size: 40px;
+            text-align: center;
+            height: 250px;
+            width: 220px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.block__6 {
+    display: none;
+    background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/unique_background.jpg)no-repeat center top / cover;
+    height: 750px;
+
+    .block__6__titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+
+        .block__6__title {
+            font-size: 62px;
+            color: #e88b0c;
+            margin-bottom: 20px;
+        }
+
+        .block__6__subtitle {
+            font-size: 44px;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+    }
+
+    .block__6__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .block__6__item {
+            .block__6__item__photo{
+                max-width: 100%;
+            }
+
+            .block__6__item__info {
+                background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/unique_image_1_1.png)no-repeat center top / cover;
+                height: 250px;
+                max-width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                & h3 {
+                    font-size: 27px;
+                    padding: 20px 0 15px;
+                    color: #fff;
+                }
+
+                & p {
+                    color: #000;
+                    line-height: 1.4;
+                    padding: 0 6px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .block__6__item__info-2 {
+            background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/unique_image_2_1.png)no-repeat center top / cover;
+            height: 250px;
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & h3 {
+                font-size: 27px;
+                padding: 20px 0 15px;
+                color: #fff;
+            }
+
+            & p {
+                color: #000;
+                line-height: 1.4;
+                padding: 0 6px;
+                text-align: center;
+            }
+        }
+
+        .block__6__item-center {
+            background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/unique_button.png)no-repeat center top / cover;
+            width: 204px;
+            height: 233px;
+            background-size: contain;
+            color: #fff;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .block__6__item__info-3 {
+            background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/unique_image_3_1.png)no-repeat center top / cover;
+            height: 250px;
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & h3 {
+                font-size: 27px;
+                padding: 20px 0 15px;
+                color: #fff;
+            }
+
+            & p {
+                color: #000;
+                line-height: 1.4;
+                padding: 0 6px;
+                text-align: center;
+            }
+        }
+
+        .block__6__item__info-4 {
+            background: url(https://ar.maximarkets.org/wp-content/themes/maximarkets/assets/images/unique_image_4_1.png)no-repeat center top / cover;
+            height: 250px;
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & h3 {
+                font-size: 27px;
+                padding: 20px 0 15px;
+                color: #fff;
+            }
+
+            & p {
+                color: #000;
+                line-height: 1.4;
+                padding: 0 6px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.block__7 {
+    .eng{
+        display: none;
+    }
+    height: 640px;
+    padding-top: 50px;
+
+    & h2 {
+        font-size: 70px;
+        color: #167bc0;
+        text-align: center;
+    }
+
+    .block__7__main {
+        padding-top: 100px;
+        display: flex;
+        flex: 1;
+
+        .block__7__image {
+            flex: 0.5;
+
+            & img {
+                max-width: 95%;
+            }
+        }
+
+        .block__7__info {
+            flex: 0.5;
+
+            & h3 {
+                font-size: 35px;
+                color: #253f76;
+                line-height: normal;
+                height: 100px;
+                width: 600px;
+            }
+        }
+
+        .downloads {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+
+            & p {
+                color: white;
+            }
+
+            .wind-ios {
+                padding-top: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(to bottom, #115eaa, #198bd9);
+                line-height: normal;
+                font-size: 18px;
+                height: 90px;
+                width: 240px;
+                border-radius: 10px;
+            }
+
+            & img {
+                padding-left: 20px;
+            }
+        }
+
+        .other {
+            font-size: 25px;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            background: linear-gradient(to bottom, #dc7313, #edad41);
+            box-sizing: border-box;
+            line-height: 90px;
+            height: 90px;
+            width: 240px;
+            border-radius: 10px;
+        }
+    }
+
+    .block__7__list {
+        margin-top: 30px;
+        display: flex;
+
+        .rigt__list,
+        .left__list {
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 50px;
+
+            & div {
+                display: flex;
+                align-items: center;
+            }
+
+            & p {
+                padding-right: 20px;
+                color: #444;
+                font-size: 14px;
+            }
+        }
+
+    }
+}
+
+footer {
+    height: 331px;
+    background-color: #121f3a;
+    margin-top: 100px;
+    padding: 30px 60px;
+
+    .footer__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer__nav__list {
+            width: 400px;
+            display: flex;
+            justify-content: space-between;
+
+            & a {
+                font-size: 14px;
+                color: #777777;
+
+                &:hover {
+                    color: #039be5;
+                }
+            }
+
+            & p {
+                font-size: 14px;
+                color: #777777;
+            }
+
+        }
+    }
+
+    .footer__main {
+        display: flex;
+        justify-content: space-between;
+        .footer__main__text {
+            width: 660px;
+            & p {
+                padding-top: 8px;
+                color: #777777;
+                font-size: 15px;
+                line-height: 30px;
+            }
+            & a{
+                color: #039be5;
+            }
+        }
+        .footer__icons{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items:flex-end;
+            & div{
+                padding-top: 8px;
+                color: #777777;
+                font-size: 15px;
+                line-height: 30px;
+                display: flex;
+                align-items:center;
+            }
+            & img{
+                padding-top: 5px;
+            }
+        }
+    }
+}
+@media (max-width: 1280px) {
+    .white {
+        display: none;
+    }
+}
+@media (max-width: 960px) {
+    .block__7__main{
+        justify-content:center;
+    }
+    .block__7__image{
+        display: none;
+    }
+    .footer__main__text img{
+        display: none;
+    }
+    
+}
+@media (max-width: 760px) {
+    header{
+        justify-content: center;
+        .header__right{
+            display: none;
+        }
+    }
+    .block__1__left {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items:center;
+        width: 100%;
+        height: 200px;
+        font-size: 10px;
+    }
+    .block__1__right{
+        display: none;
+    }
+    .block__2{
+        display: none;
+    }
+    .block__3{
+        display: none;
+    }
+    .block__4{
+        display: none;
+    }
+    .block__5{
+        display: none;
+    }
+    .block__7{
+        height:50px;
+        .ar{
+            display: none;
+        }
+        .eng{
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        .block__7__main{
+            display: none;
+        }
+    }
+}
